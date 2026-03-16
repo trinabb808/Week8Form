@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Form</title>
+<link rel="stylesheet" href="style.css">
+</head>                     
+
+<body>
+
+<h2>Contact Form</h2>
+ <form action="https://formspree.io/f/mwvrndne" method="POST">
+<label>Full Name</label>
+<input type="text" name="name" placeholder="Your Name" required>
+
+<label>Email Address</label>
+<input type="email" name="email" placeholder="Your Email" required>
+
+<label>Course Section</label>
+<select name="section">
+<option value="Select Section">Select Section</option>
+<option value="Section 1">Section 1</option>
+<option value="Section 2">Section 2</option>
+<option value="Section 3">Section 3</option>
+<option value="Section 4">Section 4</option>
+</select>
+
+<label>Reason for Contact</label>
+
+<input type="radio" name="reason" value="Question"> Question
+<input type="radio" name="reason" value="Help"> Help
+<input type="radio" name="reason" value="Feedback"> Feedback
+
+<br><br>
+
+<label>Message</label>
+<textarea name="message"></textarea>
+<br><br>
+
+<input type="hidden" name="_cc" value="rmangual@ccp.edu"
+
+
+<button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
